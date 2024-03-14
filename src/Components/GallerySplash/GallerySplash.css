@@ -1,0 +1,11 @@
+
+.gallery-splash-container {
+    border-radius: 10px;
+    width: 800px;
+    height: 720px;
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
