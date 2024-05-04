@@ -3,6 +3,8 @@
   height: 100%;
   display: flex;
   justify-content: center;
+  --var-secondary-color: rgb(34, 40, 49);
+  --var-accent-color: rgb(45, 112, 134);
 }
 
 body {
@@ -14,8 +16,9 @@ body {
   background-image: linear-gradient(
   284deg,
   #51C9FC 0%,
-  #021218 100%
+  #b5e4f6 100%
 );
+min-height: 100vh;
 background-size: cover;
 background-repeat: no-repeat;
   display: flex;

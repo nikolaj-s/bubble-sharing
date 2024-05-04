@@ -1,0 +1,18 @@
+.user-info-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info-container p {
+    margin: 0;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+.user-info-container h2 {
+    margin: 0;
+    font-size: 1.4rem;
+}

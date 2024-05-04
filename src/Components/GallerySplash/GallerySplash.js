@@ -4,6 +4,7 @@ import "./GallerySplash.css";
 
 export const GallerySplash = () => {
     return (
+        <>
         <div className='gallery-splash-container'>
             <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_113_15)">
@@ -21,6 +22,12 @@ export const GallerySplash = () => {
             </clipPath>
             </defs>
             </svg>
+            <h1>BUBBLE</h1>
         </div>
+        <div className='splash-image-container'>
+            <img className='main-prev' src='https://res.cloudinary.com/drlkgoter/image/upload/v1714845299/Screenshot_2024-05-04_105633_coq1ml.jpg' />
+            <img className='blur-background-effect' src='https://res.cloudinary.com/drlkgoter/image/upload/v1714845299/Screenshot_2024-05-04_105633_coq1ml.jpg' />
+        </div>
+        </>
     )
 }

@@ -4,40 +4,11 @@ import "./Info.css";
 
 export const Info = () => {
 
-    const openGitHub = () => {
-        window.open("https://github.com/nikolaj-s/bubble-voice/releases")
-    }
-
-    const download = () => {
-        window.open("https://github.com/nikolaj-s/bubble-voice/releases/download/v0.9.42/Bubble-Setup-0.9.73.exe")
-    }
 
     return (
         <div className='info-container'>
-            <div className='button-wrapper'>
-                <div onClick={download} className='button'>
-                    <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M43.75 56.25V76.4219C43.75 77.2507 43.4208 78.0456 42.8347 78.6316C42.2487 79.2177 41.4538 79.5469 40.625 79.5469C40.4377 79.5457 40.2508 79.5287 40.0664 79.4961L15.0664 74.9492C14.3464 74.8184 13.6951 74.439 13.2261 73.8772C12.7571 73.3154 12.5001 72.6069 12.5 71.875V56.25C12.5 55.4212 12.8292 54.6264 13.4153 54.0403C14.0013 53.4543 14.7962 53.125 15.625 53.125H40.625C41.4538 53.125 42.2487 53.4543 42.8347 54.0403C43.4208 54.6264 43.75 55.4212 43.75 56.25ZM42.6289 21.1797C42.2774 20.8862 41.8657 20.6735 41.4228 20.5567C40.98 20.44 40.517 20.4219 40.0664 20.5039L15.0664 25.0508C14.3464 25.1816 13.6951 25.561 13.2261 26.1228C12.7571 26.6846 12.5001 27.3932 12.5 28.125V43.75C12.5 44.5788 12.8292 45.3737 13.4153 45.9597C14.0013 46.5458 14.7962 46.875 15.625 46.875H40.625C41.4538 46.875 42.2487 46.5458 42.8347 45.9597C43.4208 45.3737 43.75 44.5788 43.75 43.75V23.5782C43.7501 23.1207 43.6497 22.6688 43.456 22.2543C43.2623 21.8399 42.9799 21.4731 42.6289 21.1797ZM84.375 53.125H53.125C52.2962 53.125 51.5013 53.4543 50.9153 54.0403C50.3292 54.6264 50 55.4212 50 56.25V78.6914C49.9992 79.4239 50.2557 80.1335 50.7248 80.6961C51.1939 81.2587 51.8457 81.6386 52.5664 81.7696L83.8164 87.4492C84.0006 87.4837 84.1876 87.5007 84.375 87.5C85.2038 87.5 85.9987 87.1708 86.5847 86.5847C87.1708 85.9987 87.5 85.2038 87.5 84.375V56.25C87.5 55.4212 87.1708 54.6264 86.5847 54.0403C85.9987 53.4543 85.2038 53.125 84.375 53.125ZM86.3789 13.2266C86.0274 12.9331 85.6157 12.7204 85.1728 12.6036C84.73 12.4868 84.267 12.4688 83.8164 12.5508L52.5664 18.2344C51.8464 18.3652 51.1951 18.7446 50.7261 19.3064C50.2571 19.8682 50.0001 20.5768 50 21.3086V43.75C50 44.5788 50.3292 45.3737 50.9153 45.9597C51.5013 46.5458 52.2962 46.875 53.125 46.875H84.375C85.2038 46.875 85.9987 46.5458 86.5847 45.9597C87.1708 45.3737 87.5 44.5788 87.5 43.75V15.625C87.5001 15.1676 87.3997 14.7156 87.206 14.3012C87.0123 13.8868 86.7299 13.5199 86.3789 13.2266Z" fill="#F8F8F8"/>
-                    </svg>
-                    <h2>Windows Download</h2>
-                </div>
-                <div onClick={openGitHub} className='button'>
-                    <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M50 0C22.375 0 0 22.375 0 50C0 72.125 14.3125 90.8125 34.1875 97.4375C36.6875 97.875 37.625 96.375 37.625 95.0625C37.625 93.875 37.5625 89.9375 37.5625 85.75C25 88.0625 21.75 82.6875 20.75 79.875C20.1875 78.4375 17.75 74 15.625 72.8125C13.875 71.875 11.375 69.5625 15.5625 69.5C19.5 69.4375 22.3125 73.125 23.25 74.625C27.75 82.1875 34.9375 80.0625 37.8125 78.75C38.25 75.5 39.5625 73.3125 41 72.0625C29.875 70.8125 18.25 66.5 18.25 47.375C18.25 41.9375 20.1875 37.4375 23.375 33.9375C22.875 32.6875 21.125 27.5625 23.875 20.6875C23.875 20.6875 28.0625 19.375 37.625 25.8125C41.625 24.6875 45.875 24.125 50.125 24.125C54.375 24.125 58.625 24.6875 62.625 25.8125C72.1875 19.3125 76.375 20.6875 76.375 20.6875C79.125 27.5625 77.375 32.6875 76.875 33.9375C80.0625 37.4375 82 41.875 82 47.375C82 66.5625 70.3125 70.8125 59.1875 72.0625C61 73.625 62.5625 76.625 62.5625 81.3125C62.5625 88 62.5 93.375 62.5 95.0625C62.5 96.375 63.4375 97.9375 65.9375 97.4375C75.8639 94.0874 84.4896 87.7084 90.6002 79.1985C96.7107 70.6886 99.9983 60.4765 100 50C100 22.375 77.625 0 50 0Z" fill="#F8F8F8"/>
-                    </svg>
-                    <h2>GitHub Page</h2>
-                </div>
-            </div>
-            <div className='info-inner-container'>
-                <h3>Info</h3>
-                <p>Bubble is a versatile app designed for seamless communication between friends, offering a range of features such as voice and video calls, messaging, and media sharing. Users can easily connect with their friends in real-time, whether it's for a quick chat or to share photos and videos. With its user-friendly interface and wide array of communication options, Bubble provides a convenient platform for staying connected and interacting with friends.</p>
-                <h3 style={{marginBottom: 10}}>Features</h3>
-                <li>Watch Youtube with your friends Ad Free.</li>
-                <li>Stream and share media within your friends.</li>
-                <li>Browse media and build recommendations.</li>
-                <li>Unlocked Customization.</li>
-                <li>Create Threads, and share content</li>
-            </div>
+            <h1>Welcome To Bubble</h1>
+            <p>Introducing Bubble, the exciting new social platform that is revolutionizing the way we connect with others online. With innovative features designed to foster meaningful interactions and create a sense of community, Bubble provides a safe and inclusive space for users to share their interests, discover new content, and engage in authentic conversations. Join us on Bubble and be a part of the next generation of social networking.</p>
         </div>
     )
 }

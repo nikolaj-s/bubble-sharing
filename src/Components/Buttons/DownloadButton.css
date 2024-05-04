@@ -1,0 +1,25 @@
+.download-button {
+    display: flex;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    width: auto;
+    transition: 0.1s;
+}
+
+.download-button:hover {
+    background-color: var(--var-accent-color);
+}
+
+.download-button p {
+    margin: 0;
+    margin-right: 5px;
+}
+
+@media (orientation: portrait) {
+    .download-button {
+        display: none;
+    }
+}

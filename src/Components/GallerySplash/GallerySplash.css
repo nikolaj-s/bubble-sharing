@@ -2,10 +2,41 @@
 .gallery-splash-container {
     border-radius: 10px;
     width: 800px;
-    height: 720px;
+    height: 900px;
     flex-shrink: 0;
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+.gallery-splash-container h1 {
+    font-size: 3rem;
+}
+
+.splash-image-container {
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+}
+
+.splash-image-container .main-prev {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+    position: absolute;
+}
+
+.splash-image-container .blur-background-effect {
+    z-index: 0;
+   
+    width: 120%;
+    height: 120%;
+    filter: blur(10px);
+    opacity: 1;
+    object-fit: cover;
 }

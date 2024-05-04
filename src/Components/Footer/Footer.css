@@ -1,0 +1,15 @@
+footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+}

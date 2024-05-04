@@ -1,0 +1,12 @@
+.message-content-wrapper {
+    display: inline-block;
+    width: 100%;
+    height: calc(100% - 45px);
+    position: relative;
+}
+
+.message-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
