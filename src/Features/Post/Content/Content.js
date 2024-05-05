@@ -12,6 +12,11 @@ import "./Content.css";
 import { NsfwImageOverlay } from './NsfwImageOverlay/NsfwImageOverlay'
 
 export const Content = ({message ={}, nsfw}) => {
+
+    const handleOpenImageInNewTab = (src) => {
+        window.open(src);
+    }
+
     return (
         <>
         {message?.emoji ?
@@ -40,7 +45,7 @@ export const Content = ({message ={}, nsfw}) => {
             
             {
             message.image && !message.gallery ? 
-            <img className='message-image' src={message.image}  />
+            <img onClick={(e) => {handleOpenImageInNewTab(e.target.src)}} className='message-image' src={message.image}  />
             : null}
             {message.video ? 
             <div 

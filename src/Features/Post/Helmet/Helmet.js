@@ -9,7 +9,7 @@ export const MediaTags = ({post, user}) => {
     return (
         <Helmet>
         <meta charSet='utf-8' />
-        
+        <title>{post && user ? `Bubble | post by ${user.display_name}` : "Bubble"}</title>
         <link rel='canonical' href={window.location.href} />
         <meta property='og:image' name='og:image' content={post?.content?.image || user?.user_image || image} />
         <meta name='og:title' content={"Post Shared From Bubble"} />

@@ -9,9 +9,11 @@
     display: flex;
     align-items: center;
     padding: 10px;
-    position: sticky;
+    position: fixed;
+    z-index: 5;
     top: 5px;
     justify-content: space-between;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.518);
 }
 
 .nav-title-bar span {

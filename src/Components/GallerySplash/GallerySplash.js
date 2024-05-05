@@ -23,6 +23,7 @@ export const GallerySplash = () => {
             </defs>
             </svg>
             <h1>BUBBLE</h1>
+            <p style={{margin: 0, opacity: 0.9}}>The Open Social Platform</p>
         </div>
         <div className='splash-image-container'>
             <img className='main-prev' src='https://res.cloudinary.com/drlkgoter/image/upload/v1714845299/Screenshot_2024-05-04_105633_coq1ml.jpg' />
