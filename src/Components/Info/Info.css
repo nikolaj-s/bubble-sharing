@@ -1,6 +1,7 @@
 .info-container {
     height: auto;
     width: calc(100% - 100px);
+    max-width: 1400px;
     background-color: var(--var-secondary-color);
     border-radius: 20px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.413);
@@ -22,4 +23,13 @@
     text-align: center;
     font-weight: 300;
     opacity: 0.9;
+}
+
+
+@media (max-width: 500px) {
+    .info-container {
+        max-width: 100%;
+        width: calc(100% - 20px);
+        border-radius: 0px;
+    }
 }

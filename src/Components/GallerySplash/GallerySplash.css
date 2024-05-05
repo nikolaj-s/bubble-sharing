@@ -14,6 +14,7 @@
 
 .gallery-splash-container h1 {
     font-size: 3rem;
+
 }
 
 .splash-image-container {
@@ -39,4 +40,12 @@
     filter: blur(10px);
     opacity: 1;
     object-fit: cover;
+}
+
+
+@media (max-width: 500px) {
+    .gallery-splash-container svg {
+        width: 200px;
+        height: 200px;
+    }
 }

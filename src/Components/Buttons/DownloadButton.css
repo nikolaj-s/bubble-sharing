@@ -18,7 +18,7 @@
     margin-right: 5px;
 }
 
-@media (orientation: portrait) {
+@media (max-width: 500px) {
     .download-button {
         display: none;
     }
