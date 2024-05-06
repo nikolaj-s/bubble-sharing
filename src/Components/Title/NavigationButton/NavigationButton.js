@@ -2,6 +2,8 @@ import React from 'react'
 
 import "./NavigationButton.css";
 
+import { Link } from 'react-router-dom';
+
 export const NavigationButton = () => {
 
     const [navigationMenuOpen, toggleNavigationMenuOpen] = React.useState(false);
@@ -14,6 +16,8 @@ export const NavigationButton = () => {
 
         if (window.location.pathname.includes('post')) {
             setPage("Shared post");
+        } else if (window.location.pathname.includes('release')) {
+            setPage("Release Notes");
         } else {
             setPage("App Download");
         }
@@ -56,7 +60,9 @@ export const NavigationButton = () => {
             {navigationMenuOpen ?
             <div onClick={() => {toggleNavigationMenuOpen(false)}} className='navigation-menu-wrapper'>
                 <div onClick={(e) => {e.stopPropagation()}} className='navigation-menu'>
-                    <p onClick={goHome}>Home</p>
+                    <Link onClick={() => {toggleNavigationMenuOpen(false)}}  to={'/'} >Download Page</Link>
+                    <Link onClick={() => {toggleNavigationMenuOpen(false)}}  to={'/release-notes'} >Release Notes</Link>
+                    
                 </div>
             </div>
             : null}

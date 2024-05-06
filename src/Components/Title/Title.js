@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './Title.css';
-import { DownloadButton } from '../Buttons/DownloadButton';
+import { DownloadButton } from '../Buttons/DownloadButton/DownloadButton';
 import { NavigationButton } from './NavigationButton/NavigationButton';
 
 export const Title = () => {
@@ -14,9 +14,7 @@ export const Title = () => {
             <h2>BUBBLE</h2>
             <NavigationButton />
             </span>
-            <div className='button-nav-wrapper'>
-                <DownloadButton />
-            </div>
+            
         </div>
         <div style={{
             flexShrink: 0,

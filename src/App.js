@@ -9,6 +9,7 @@ import { Footer } from './Components/Footer/Footer';
 import { useSelector } from 'react-redux';
 import { selectPost } from './Features/Post/PostSlice';
 import { MediaTags } from './Features/Post/Helmet/Helmet';
+import { ReleaseNotes } from './Features/ReleaseNotes/ReleaseNotes';
 
 function App() {
 
@@ -17,20 +18,24 @@ function App() {
     return (
       <div className="App">
         <MediaTags user={post?.user} post={post?.message} />
-        <Title />
+        
         <BrowserRouter>
+          <Title />
           <Routes>
+            
             <Route element={
             <>
             <GallerySplash />
             <Info />
             </>
             } path="/" />
+            <Route path="/release-notes" element={<ReleaseNotes />} />
             <Route key={window.location.pathname} element={<Post key={window.location.pathname} />}
             path="/post/*"
             />
           </Routes>
         </BrowserRouter>
+
         <Footer />
       </div>
     );

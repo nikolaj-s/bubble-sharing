@@ -1,0 +1,15 @@
+
+.release-note-container {
+    width: 95%;
+}
+
+.release-note-container h2 {
+    font-size: 2.2rem;
+    text-decoration: underline;
+}
+
+.release-note-container li {
+    line-height: 1.5;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
