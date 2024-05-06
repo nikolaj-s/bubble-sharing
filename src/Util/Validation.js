@@ -1,2 +1,2 @@
 
-export const URL = "http://localhost:2042"
+export const URL = "https://bubble-web-02c440daf602.herokuapp.com"
