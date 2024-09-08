@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Bubble: A Privacy-First Voice and Video Communication Desktop Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **Bubble**, a cutting-edge desktop application designed to revolutionize your voice and video communication experience. Built with a strong emphasis on **privacy** and **customization**, Bubble empowers users to communicate securely without compromising on features or convenience.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+- **End-to-End Encryption**: Bubble ensures that your conversations remain private and secure. All voice and video data is encrypted, preventing unauthorized access and safeguarding your personal information.
 
-### `npm start`
+- **Customizable Interface**: Tailor your communication experience with a fully customizable interface. Adjust themes, layouts, and settings to fit your personal style and preferences.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **High-Quality Audio and Video**: Enjoy crystal-clear voice and video calls that enhance your communication. Bubble utilizes advanced technology to deliver an immersive experience, regardless of your internet connection.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **User-Friendly Design**: With an intuitive and easy-to-navigate interface, getting started with Bubble is a breeze. Spend less time figuring out how to use the app and more time connecting with friends, family, or colleagues.
 
-### `npm test`
+- **Privacy-Centric Features**: Control your own privacy with features such as self-destructing messages, customizable visibility settings, and the ability to block or report users with ease.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Multi-Platform Support**: Bubble is designed to work seamlessly across various operating systems, making it accessible whether you're on Windows, macOS, or Linux.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get started with Bubble, simply download the application from our [https://bubble-sharing.netlify.app/](#) and follow the installation instructions. Once installed, create an account and dive into an experience tailored to your communication needs while prioritizing your privacy.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+Bubble is open-source and available under the [MIT License](#).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Join us in creating a communication platform that respects your privacy and offers unparalleled customization. Download Bubble today and experience the future of voice and video communications!
