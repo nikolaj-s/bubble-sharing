@@ -18,6 +18,11 @@
     margin-right: 5px;
 }
 
+.download-button svg {
+    width: 30px;
+    height: 30px;
+}
+
 @media (max-width: 500px) {
     .download-button {
         display: none;

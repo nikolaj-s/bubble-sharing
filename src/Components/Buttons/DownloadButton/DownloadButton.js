@@ -7,7 +7,7 @@ export const DownloadButton = () => {
     const [mouseDown, toggleMouseDown] = React.useState(false);
 
     const handleAction = () => {
-        window.open("https://github.com/nikolaj-s/bubble-voice/releases/download/v0.9.85/Bubble-Setup-0.9.85.exe")
+        window.open("https://github.com/nikolaj-s/bubble-voice/releases/download/v0.9.90/Bubble-Setup-0.9.90.exe")
     }
 
     return (
